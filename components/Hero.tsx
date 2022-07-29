@@ -5,7 +5,7 @@ import Logo from "../public/images/logo.svg";
 const Hero = () => {
 	return (
 		<section>
-			<div className="max-w-6xl mx-auto text-center mb-40 px-10 pt-16 section-container">
+			<div className="section-container mb-40 px-10 pt-16 section-container">
 				<Image src={Logo} alt="logo" className="mx-auto my-16" />
 				<h3 className="my-8 text-4xl font-bold text-darkGrayishBlue md:text-5xl">
 					A history of everything you copied

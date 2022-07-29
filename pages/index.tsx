@@ -1,10 +1,20 @@
 import type { NextPage } from "next";
-import Head from "next/head";
-import Image from "next/image";
+import Access from "../components/Access";
+import Features from "../components/Features";
 import Hero from "../components/Hero";
+import Snippets from "../components/Snippets";
+import SuperShot from "../components/SuperShot";
 
 const Home: NextPage = () => {
-	return <Hero />;
+	return (
+		<>
+			<Hero />
+			<Snippets />
+			<Features />
+			<Access />
+			<SuperShot />
+		</>
+	);
 };
 
 export default Home;
