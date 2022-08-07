@@ -13,18 +13,18 @@ const SuperShot = () => {
 				</p>
 				<div className="flex flex-col items-center justify-between space-y-16 md:flex-row md:space-y-0 md:space-x-12">
 					<SuperShotItem
-						image="../images/icon-blacklist.svg"
+						image="/images/icon-blacklist.svg"
 						title="Create Blacklists"
 						description="Easily search your snippets by content, category, web address,
                         application, and more."
 					/>
 					<SuperShotItem
-						image="../images/icon-text.svg"
+						image="/images/icon-text.svg"
 						title="Plain Text Snippets"
 						description=" Remove unwanted formatting from copied text for a consistent look."
 					/>
 					<SuperShotItem
-						image="../images/icon-preview.svg"
+						image="/images/icon-preview.svg"
 						title="Sneak Preview"
 						description="Quick preview of all snippets on your Clipboard for easy access."
 					/>

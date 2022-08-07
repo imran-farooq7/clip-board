@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React from "react";
 
 import FeatureItem from "./FeatureItem";
@@ -8,9 +9,11 @@ const Features = () => {
 			<div className="section-container px-10 my-20">
 				<div className="relative flex flex-col md:flex-row md:space-x-32">
 					<div className="md:w-1/2">
-						<img
-							src="../images/image-computer.png"
+						<Image
+							src="/images/image-computer.png"
 							className="md:absolute top-0 right-[50%]"
+							width={"500px"}
+							height={"500px"}
 						/>
 					</div>
 					<div className="flex flex-col mt-16 mb-24 space-y-12 text-xl md:w-1/2 md:mb-60 md:text-left md:pl-16">

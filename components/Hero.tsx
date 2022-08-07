@@ -6,7 +6,12 @@ const Hero = () => {
 	return (
 		<section>
 			<div className="section-container mb-40 px-10 pt-16 section-container">
-				<Image src={Logo} alt="logo" className="mx-auto my-16" />
+				<Image
+					src={Logo}
+					alt="logo"
+					className="mx-auto my-16"
+					width={"200px"}
+				/>
 				<h3 className="my-8 text-4xl font-bold text-darkGrayishBlue md:text-5xl">
 					A history of everything you copied
 				</h3>

@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React from "react";
 
 import FeatureItem from "./FeatureItem";
@@ -13,10 +14,12 @@ const Access = () => {
 					Whether you’re on the go, or at your computer, you can access all your
 					Clipboard snippets in a few simple clicks.
 				</p>
-				<img
-					src="../images/image-devices.png"
+				<Image
+					src="/images/image-devices.png"
 					alt="devices"
 					className="mx-auto"
+					width={"550px"}
+					height={"550px"}
 				/>
 			</div>
 		</section>
